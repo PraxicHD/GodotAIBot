@@ -1,0 +1,5 @@
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/publish/GodotAIBot.exe
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/publish/GodotAIBot.dll
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/publish/GodotAIBot.deps.json
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/publish/GodotAIBot.runtimeconfig.json
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/publish/GodotAIBot.pdb

@@ -1,0 +1,15 @@
+/workspaces/GodotAIBot/bin/Debug/net8.0-windows/GodotAIBot
+/workspaces/GodotAIBot/bin/Debug/net8.0-windows/GodotAIBot.deps.json
+/workspaces/GodotAIBot/bin/Debug/net8.0-windows/GodotAIBot.runtimeconfig.json
+/workspaces/GodotAIBot/bin/Debug/net8.0-windows/GodotAIBot.dll
+/workspaces/GodotAIBot/bin/Debug/net8.0-windows/GodotAIBot.pdb
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/GodotAIBot.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/GodotAIBot.AssemblyInfoInputs.cache
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/GodotAIBot.AssemblyInfo.cs
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/GodotAIBot.csproj.CoreCompileInputs.cache
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/GodotAIBot.sourcelink.json
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/GodotAIBot.dll
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/refint/GodotAIBot.dll
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/GodotAIBot.pdb
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/GodotAIBot.genruntimeconfig.cache
+/workspaces/GodotAIBot/obj/Debug/net8.0-windows/ref/GodotAIBot.dll

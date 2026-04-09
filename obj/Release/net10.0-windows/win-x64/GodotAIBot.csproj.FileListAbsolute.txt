@@ -1,0 +1,15 @@
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/GodotAIBot.exe
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/GodotAIBot.deps.json
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/GodotAIBot.runtimeconfig.json
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/GodotAIBot.dll
+/workspaces/GodotAIBot/bin/Release/net10.0-windows/win-x64/GodotAIBot.pdb
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/GodotAIBot.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/GodotAIBot.AssemblyInfoInputs.cache
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/GodotAIBot.AssemblyInfo.cs
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/GodotAIBot.csproj.CoreCompileInputs.cache
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/GodotAIBot.sourcelink.json
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/GodotAIBot.dll
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/refint/GodotAIBot.dll
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/GodotAIBot.pdb
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/GodotAIBot.genruntimeconfig.cache
+/workspaces/GodotAIBot/obj/Release/net10.0-windows/win-x64/ref/GodotAIBot.dll
