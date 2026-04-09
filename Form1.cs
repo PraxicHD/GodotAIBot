@@ -444,6 +444,7 @@ public sealed class GodotKnowledgeBase
 
         const string rootUrl = "https://docs.godotengine.org/en/stable/";
         var html = await _httpClient.GetStringAsync(rootUrl);
+        var loadedChunks = new List<DocChunk>();
 
         var links = Regex.Matches(html, "href=\"([^\"]+)\"")
             .Select(m => m.Groups[1].Value)
@@ -463,10 +464,11 @@ public sealed class GodotKnowledgeBase
             {
                 var length = Math.Min(650, plain.Length - index);
                 var chunk = plain.Substring(index, length);
-                _chunks.Add(new DocChunk(fullUrl, chunk));
+                loadedChunks.Add(new DocChunk(fullUrl, chunk));
             }
         }
 
+        _chunks.AddRange(loadedChunks);
         return _chunks.Count;
     }
 
