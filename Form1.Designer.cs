@@ -35,51 +35,60 @@ partial class Form1
         txtInput = new System.Windows.Forms.TextBox();
         btnClearChat = new System.Windows.Forms.Button();
         lblStatus = new System.Windows.Forms.Label();
+        lblTitle = new System.Windows.Forms.Label();
+        lblSubtitle = new System.Windows.Forms.Label();
         SuspendLayout();
         // 
         // btnLoadDocs
         // 
-        btnLoadDocs.Location = new System.Drawing.Point(12, 12);
+        btnLoadDocs.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+        btnLoadDocs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+        btnLoadDocs.Location = new System.Drawing.Point(674, 19);
         btnLoadDocs.Name = "btnLoadDocs";
-        btnLoadDocs.Size = new System.Drawing.Size(127, 32);
-        btnLoadDocs.TabIndex = 0;
-        btnLoadDocs.Text = "Load Godot Docs";
+        btnLoadDocs.Size = new System.Drawing.Size(138, 34);
+        btnLoadDocs.TabIndex = 1;
+        btnLoadDocs.Text = "Load Docs";
         btnLoadDocs.UseVisualStyleBackColor = true;
         // 
         // btnSend
         // 
         btnSend.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
-        btnSend.Location = new System.Drawing.Point(687, 406);
+        btnSend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+        btnSend.Location = new System.Drawing.Point(689, 582);
         btnSend.Name = "btnSend";
-        btnSend.Size = new System.Drawing.Size(101, 32);
-        btnSend.TabIndex = 4;
+        btnSend.Size = new System.Drawing.Size(123, 42);
+        btnSend.TabIndex = 5;
         btnSend.Text = "Send";
         btnSend.UseVisualStyleBackColor = true;
         // 
         // txtConversation
         // 
         txtConversation.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-        txtConversation.Location = new System.Drawing.Point(12, 50);
+        txtConversation.BorderStyle = System.Windows.Forms.BorderStyle.None;
+        txtConversation.Location = new System.Drawing.Point(18, 98);
         txtConversation.Name = "txtConversation";
         txtConversation.ReadOnly = true;
-        txtConversation.Size = new System.Drawing.Size(776, 283);
-        txtConversation.TabIndex = 1;
+        txtConversation.Size = new System.Drawing.Size(794, 395);
+        txtConversation.TabIndex = 3;
         txtConversation.Text = "";
         // 
         // txtInput
         // 
         txtInput.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-        txtInput.Location = new System.Drawing.Point(12, 363);
+        txtInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+        txtInput.Location = new System.Drawing.Point(18, 526);
         txtInput.Multiline = true;
         txtInput.Name = "txtInput";
-        txtInput.Size = new System.Drawing.Size(776, 37);
-        txtInput.TabIndex = 3;
+        txtInput.Size = new System.Drawing.Size(665, 98);
+        txtInput.TabIndex = 4;
         // 
         // btnClearChat
         // 
-        btnClearChat.Location = new System.Drawing.Point(145, 12);
+        btnClearChat.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+        btnClearChat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+        btnClearChat.Location = new System.Drawing.Point(542, 19);
         btnClearChat.Name = "btnClearChat";
-        btnClearChat.Size = new System.Drawing.Size(88, 32);
+        btnClearChat.Size = new System.Drawing.Size(118, 34);
         btnClearChat.TabIndex = 2;
         btnClearChat.Text = "Clear Chat";
         btnClearChat.UseVisualStyleBackColor = true;
@@ -87,23 +96,44 @@ partial class Form1
         // lblStatus
         // 
         lblStatus.AutoSize = true;
-        lblStatus.Location = new System.Drawing.Point(12, 339);
+        lblStatus.Location = new System.Drawing.Point(18, 501);
         lblStatus.Name = "lblStatus";
         lblStatus.Size = new System.Drawing.Size(65, 15);
-        lblStatus.TabIndex = 5;
+        lblStatus.TabIndex = 6;
         lblStatus.Text = "Status: idle";
+        // 
+        // lblTitle
+        // 
+        lblTitle.AutoSize = true;
+        lblTitle.Location = new System.Drawing.Point(18, 19);
+        lblTitle.Name = "lblTitle";
+        lblTitle.Size = new System.Drawing.Size(80, 15);
+        lblTitle.TabIndex = 0;
+        lblTitle.Text = "Godot Codex";
+        // 
+        // lblSubtitle
+        // 
+        lblSubtitle.AutoSize = true;
+        lblSubtitle.Location = new System.Drawing.Point(18, 47);
+        lblSubtitle.Name = "lblSubtitle";
+        lblSubtitle.Size = new System.Drawing.Size(291, 15);
+        lblSubtitle.TabIndex = 7;
+        lblSubtitle.Text = "A focused Godot pairing assistant for docs, code, and plans";
         // 
         // Form1
         // 
         AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
         AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        ClientSize = new System.Drawing.Size(800, 450);
+        ClientSize = new System.Drawing.Size(830, 643);
+        Controls.Add(lblSubtitle);
+        Controls.Add(lblTitle);
         Controls.Add(lblStatus);
         Controls.Add(btnClearChat);
         Controls.Add(txtInput);
         Controls.Add(txtConversation);
         Controls.Add(btnSend);
         Controls.Add(btnLoadDocs);
+        MinimumSize = new System.Drawing.Size(846, 682);
         Name = "Form1";
         Text = "Godot AI Bot";
         ResumeLayout(false);
@@ -118,4 +148,6 @@ partial class Form1
     private System.Windows.Forms.TextBox txtInput;
     private System.Windows.Forms.Button btnClearChat;
     private System.Windows.Forms.Label lblStatus;
+    private System.Windows.Forms.Label lblTitle;
+    private System.Windows.Forms.Label lblSubtitle;
 }
